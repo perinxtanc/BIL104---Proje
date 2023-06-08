@@ -15,3 +15,6 @@ class Insan:
             
     def get_ad(self):
         return self.__ad
+        
+    def set_ad(self, ad):
+        self.__ad = ad
