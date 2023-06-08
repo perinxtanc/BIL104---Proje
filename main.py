@@ -78,3 +78,8 @@ print("Maaşı 15000 TL üzerinde olanların toplam sayısı:", maas_ust_limit_s
 siralama_df = df.sort_values('Yeni Maaş', ascending=True)
 print("Yeni Maaşa Göre Sıralama:")
 print(siralama_df)
+
+tecrube_limit = 3
+beyaz_yakalar = df[(df['Nesne'] == 'beyaz yaka') & (df['Tecrübe'] > tecrube_limit)]
+print("Tecrübesi 3 seneden fazla olan Beyaz yakalılar:")
+print(beyaz_yakalar)
