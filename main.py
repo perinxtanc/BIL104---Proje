@@ -30,5 +30,7 @@ data = {
     'TC No': [calisan1.get_tc_no(), calisan2.get_tc_no(),
               calisan3.get_tc_no(), maviyaka1.get_tc_no(), maviyaka2.get_tc_no(), maviyaka3.get_tc_no(),
               beyazyaka1.get_tc_no(), beyazyaka2.get_tc_no(), beyazyaka3.get_tc_no()],
-    
+    'Ad': [calisan1.get_ad(), calisan2.get_ad(), calisan3.get_ad(),
+           maviyaka1.get_ad(), maviyaka2.get_ad(), maviyaka3.get_ad(), beyazyaka1.get_ad(), beyazyaka2.get_ad(),
+           beyazyaka3.get_ad()],
 }
