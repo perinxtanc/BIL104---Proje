@@ -24,4 +24,7 @@ issiz1 = Issiz('13131313131', 'Ömer', 'Yılmaz', 24, 'Erkek', 'Türk', 12)
 issiz2 = Issiz('14141414141', 'Ayşe', 'Demir', 27, 'Kadın', 'Türk', 24)
 issiz3 = Issiz('15151515151', 'Mehmet', 'Aydın', 31, 'Erkek', 'Türk', 60)
 
-data = {}
+data = {
+    'Nesne': ['çalışan', 'çalışan', 'çalışan', 'mavi yaka', 'mavi yaka', 'mavi yaka',
+              'beyaz yaka', 'beyaz yaka', 'beyaz yaka'],
+}
