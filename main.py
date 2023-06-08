@@ -56,4 +56,6 @@ data = {
              beyazyaka3.get_maas()],
     'Yıpranma Payı': [0, 0, 0, maviyaka1.get_yipranma_payi(), maviyaka2.get_yipranma_payi(),
                      maviyaka3.get_yipranma_payi(),0, 0, 0],
+    'Teşvik Primi': [0, 0, 0, 0, 0, 0,beyazyaka1.get_tesvik_primi(),
+                     beyazyaka2.get_tesvik_primi(), beyazyaka3.get_tesvik_primi()],
 }
