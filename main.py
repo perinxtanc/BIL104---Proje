@@ -62,6 +62,6 @@ data = {
               int(maviyaka2.get_maas()) + int(maviyaka2.zam_hakki()), int(maviyaka3.get_maas()) + int(maviyaka3.zam_hakki()),
               int(beyazyaka1.get_maas()) + int(beyazyaka1.zam_hakki()), int(beyazyaka2.get_maas()) + int(beyazyaka2.zam_hakki()),
               int(beyazyaka3.get_maas()) + int(beyazyaka3.zam_hakki())],
-
-
 }
+
+df = pd.DataFrame(data)
