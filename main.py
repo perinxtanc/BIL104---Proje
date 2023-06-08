@@ -54,4 +54,6 @@ data = {
     'Maaş': [calisan1.get_maas(), calisan2.get_maas(), calisan3.get_maas(), maviyaka1.get_maas(),
              maviyaka2.get_maas(), maviyaka3.get_maas(), beyazyaka1.get_maas(), beyazyaka2.get_maas(),
              beyazyaka3.get_maas()],
+    'Yıpranma Payı': [0, 0, 0, maviyaka1.get_yipranma_payi(), maviyaka2.get_yipranma_payi(),
+                     maviyaka3.get_yipranma_payi(),0, 0, 0],
 }
