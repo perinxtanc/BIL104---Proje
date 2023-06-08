@@ -65,3 +65,5 @@ data = {
 }
 
 df = pd.DataFrame(data)
+
+df.fillna(0, inplace=True)
