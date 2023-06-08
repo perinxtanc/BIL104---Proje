@@ -7,3 +7,6 @@ class MaviYaka(Calisan):
             
     def get_yipranma_payi(self):
         return self.__yipranma_payi
+    
+    def set_yipranma_payi(self, yipranma_payi):
+        self.__yipranma_payi = yipranma_payi
