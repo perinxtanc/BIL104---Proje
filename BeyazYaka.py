@@ -24,3 +24,7 @@ class BeyazYaka(Calisan):
                 return 0
         except:
             return 0
+    
+    def __str__(self):
+        yeni_maas = self.get_maas() + self.zam_hakki()
+        return f"{super().__str__()}\nTeşvik Primi: {self.__tesvik_primi}\nYeni Maaş: {yeni_maas}\n"
