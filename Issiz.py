@@ -12,3 +12,6 @@ class Issiz(Insan):
     def set_tecrube(self, tecrube):
         self.__tecrube = tecrube
         self.__statu = self.__statu_bul(tecrube)
+    
+    def get_statu(self):
+        return self.__statu
