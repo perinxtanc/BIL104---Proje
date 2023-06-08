@@ -24,3 +24,6 @@ class Calisan(Insan):
     
     def set_maas(self, maas):
         self.__maas = maas
+    
+    def __str__(self):
+        return f"{super().__str__()}\nSektör: {self.__sektor}\nTecrübe: {self.__tecrube} yıl\nMaaş: {self.__maas}"
