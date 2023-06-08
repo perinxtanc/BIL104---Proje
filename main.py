@@ -71,3 +71,6 @@ df.fillna(0, inplace=True)
 gruplu_df = df[["Nesne", "Tecrübe", "Yeni Maaş"]].groupby(['Nesne']).mean()
 print("Tecrübe ve Yeni Maaş Ortalamaları:")
 print(gruplu_df)
+
+maas_ust_limit_sayisi = len(df[df['Maaş'] > 15000])
+print("Maaşı 15000 TL üzerinde olanların toplam sayısı:", maas_ust_limit_sayisi)
