@@ -19,3 +19,7 @@ maviyaka3 = MaviYaka('88888888888', 'Can', 'Demir', 27, 'Erkek', 'Türk', 'diğe
 beyazyaka1 = BeyazYaka('99999999999', 'Elif', 'Akgün', 33, 'Kadın', 'Türk', 'inşaat', 60, 19000, 1000)
 beyazyaka2 = BeyazYaka('10101010101', 'Hasan', 'Yılmaz', 26, 'Erkek', 'Türk', 'teknoloji', 36, 17000, 500)
 beyazyaka3 = BeyazYaka('12121212121', 'Zeynep', 'Kaya', 30, 'Kadın', 'Türk', 'muhasebe', 48, 20000, 1500)
+
+issiz1 = Issiz('13131313131', 'Ömer', 'Yılmaz', 24, 'Erkek', 'Türk', 12)
+issiz2 = Issiz('14141414141', 'Ayşe', 'Demir', 27, 'Kadın', 'Türk', 24)
+issiz3 = Issiz('15151515151', 'Mehmet', 'Aydın', 31, 'Erkek', 'Türk', 60)
