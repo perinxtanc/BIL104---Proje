@@ -30,3 +30,6 @@ class Insan:
         
     def set_yas(self, yas):
         self.__yas = yas
+            
+    def get_cinsiyet(self):
+        return self.__cinsiyet
