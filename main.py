@@ -67,3 +67,7 @@ data = {
 df = pd.DataFrame(data)
 
 df.fillna(0, inplace=True)
+
+gruplu_df = df[["Nesne", "Tecrübe", "Yeni Maaş"]].groupby(['Nesne']).mean()
+print("Tecrübe ve Yeni Maaş Ortalamaları:")
+print(gruplu_df)
