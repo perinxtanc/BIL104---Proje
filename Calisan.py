@@ -18,3 +18,6 @@ class Calisan(Insan):
     
     def set_tecrube(self, tecrube):
         self.__tecrube = tecrube
+    
+    def get_maas(self):
+        return self.__maas
