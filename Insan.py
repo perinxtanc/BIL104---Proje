@@ -27,3 +27,6 @@ class Insan:
     
     def get_yas(self):
         return self.__yas
+        
+    def set_yas(self, yas):
+        self.__yas = yas
