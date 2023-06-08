@@ -58,4 +58,10 @@ data = {
                      maviyaka3.get_yipranma_payi(),0, 0, 0],
     'Teşvik Primi': [0, 0, 0, 0, 0, 0,beyazyaka1.get_tesvik_primi(),
                      beyazyaka2.get_tesvik_primi(), beyazyaka3.get_tesvik_primi()],
+    'Yeni Maaş': [calisan1.get_maas(), calisan2.get_maas(), calisan3.get_maas(), int(maviyaka1.get_maas()) + int(maviyaka1.zam_hakki()),
+              int(maviyaka2.get_maas()) + int(maviyaka2.zam_hakki()), int(maviyaka3.get_maas()) + int(maviyaka3.zam_hakki()),
+              int(beyazyaka1.get_maas()) + int(beyazyaka1.zam_hakki()), int(beyazyaka2.get_maas()) + int(beyazyaka2.zam_hakki()),
+              int(beyazyaka3.get_maas()) + int(beyazyaka3.zam_hakki())],
+
+
 }
