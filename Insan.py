@@ -39,3 +39,6 @@ class Insan:
             
     def get_uyruk(self):
         return self.__uyruk
+        
+    def set_uyruk(self, uyruk):
+        self.__uyruk = uyruk
