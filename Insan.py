@@ -6,3 +6,6 @@ class Insan:
         self.__yas = yas
         self.__cinsiyet = cinsiyet
         self.__uyruk = uyruk
+            
+    def get_tc_no(self):
+        return self.__tc_no
