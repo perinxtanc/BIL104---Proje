@@ -88,3 +88,7 @@ maas_limit = 10000
 satir_secimi_df = df[(df['Yeni Maaş'] > maas_limit)].iloc[1:6, [1, 12]]
 print("Yeni Maaşı 10000 TL üzerinde olanların 2-5 satırları:")
 print(satir_secimi_df)
+
+yeni_df = df[['Ad', 'Soyad', 'Sektör', 'Yeni Maaş']]
+print("Yeni DataFrame:")
+print(yeni_df)
