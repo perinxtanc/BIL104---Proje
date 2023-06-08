@@ -24,5 +24,8 @@ class MaviYaka(Calisan):
                 return 0
         except:
             return 0
-
+    
+    def __str__(self):
+        yeni_maas = self.get_maas() + self.zam_hakki()
+        return f"{super().__str__()}\nYıpranma Payı: {self.__yipranma_payi}\nYeni Maaş: {yeni_maas}"
     
