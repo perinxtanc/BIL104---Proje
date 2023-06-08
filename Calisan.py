@@ -6,3 +6,6 @@ class Calisan(Insan):
         self.__sektor = sektor
         self.__tecrube = tecrube
         self.__maas = maas
+            
+    def get_sektor(self):
+        return self.__sektor
