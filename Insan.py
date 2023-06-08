@@ -33,3 +33,6 @@ class Insan:
             
     def get_cinsiyet(self):
         return self.__cinsiyet
+        
+    def set_cinsiyet(self, cinsiyet):
+        self.__cinsiyet = cinsiyet
