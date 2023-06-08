@@ -74,3 +74,7 @@ print(gruplu_df)
 
 maas_ust_limit_sayisi = len(df[df['Maaş'] > 15000])
 print("Maaşı 15000 TL üzerinde olanların toplam sayısı:", maas_ust_limit_sayisi)
+
+siralama_df = df.sort_values('Yeni Maaş', ascending=True)
+print("Yeni Maaşa Göre Sıralama:")
+print(siralama_df)
