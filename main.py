@@ -51,4 +51,7 @@ data = {
     'Tecrübe': [calisan1.get_tecrube(), calisan2.get_tecrube(), calisan3.get_tecrube(), maviyaka1.get_tecrube(),
                 maviyaka2.get_tecrube(), maviyaka3.get_tecrube(), beyazyaka1.get_tecrube(), beyazyaka2.get_tecrube(),
                 beyazyaka3.get_tecrube()],
+    'Maaş': [calisan1.get_maas(), calisan2.get_maas(), calisan3.get_maas(), maviyaka1.get_maas(),
+             maviyaka2.get_maas(), maviyaka3.get_maas(), beyazyaka1.get_maas(), beyazyaka2.get_maas(),
+             beyazyaka3.get_maas()],
 }
