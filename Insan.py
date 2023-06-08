@@ -18,3 +18,6 @@ class Insan:
         
     def set_ad(self, ad):
         self.__ad = ad
+            
+    def get_soyad(self):
+        return self.__soyad
