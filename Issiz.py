@@ -27,3 +27,6 @@ class Issiz(Insan):
         max_statu = [k for k, v in statuler.items() if v == max_etkisi]
         
         return max_statu[0]
+    
+    def __str__(self):
+        return f"{super().__str__()}\nEn Uygun Statü: {self.__statu}"
