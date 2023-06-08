@@ -39,4 +39,7 @@ data = {
     'Yaş': [calisan1.get_yas(), calisan2.get_yas(), calisan3.get_yas(),
             maviyaka1.get_yas(), maviyaka2.get_yas(), maviyaka3.get_yas(), beyazyaka1.get_yas(), beyazyaka2.get_yas(),
             beyazyaka3.get_yas()],
+    'Cinsiyet': [calisan1.get_cinsiyet(), calisan2.get_cinsiyet(),
+                 calisan3.get_cinsiyet(), maviyaka1.get_cinsiyet(), maviyaka2.get_cinsiyet(), maviyaka3.get_cinsiyet(),
+                 beyazyaka1.get_cinsiyet(), beyazyaka2.get_cinsiyet(), beyazyaka3.get_cinsiyet()],
 }
