@@ -45,4 +45,10 @@ data = {
     'Uyruk': [calisan1.get_uyruk(), calisan2.get_uyruk(), calisan3.get_uyruk(),
               maviyaka1.get_uyruk(), maviyaka2.get_uyruk(), maviyaka3.get_uyruk(), beyazyaka1.get_uyruk(),
               beyazyaka2.get_uyruk(), beyazyaka3.get_uyruk()],
+    'Sektör': [calisan1.get_sektor(), calisan2.get_sektor(), calisan3.get_sektor(), maviyaka1.get_sektor(),
+               maviyaka2.get_sektor(), maviyaka3.get_sektor(), beyazyaka1.get_sektor(), beyazyaka2.get_sektor(),
+               beyazyaka3.get_sektor()],
+    'Tecrübe': [calisan1.get_tecrube(), calisan2.get_tecrube(), calisan3.get_tecrube(), maviyaka1.get_tecrube(),
+                maviyaka2.get_tecrube(), maviyaka3.get_tecrube(), beyazyaka1.get_tecrube(), beyazyaka2.get_tecrube(),
+                beyazyaka3.get_tecrube()],
 }
