@@ -9,3 +9,6 @@ class Calisan(Insan):
             
     def get_sektor(self):
         return self.__sektor
+    
+    def set_sektor(self, sektor):
+        self.__sektor = sektor
