@@ -8,3 +8,7 @@ class Issiz(Insan):
     
     def get_tecrube(self):
         return self.__tecrube
+        
+    def set_tecrube(self, tecrube):
+        self.__tecrube = tecrube
+        self.__statu = self.__statu_bul(tecrube)
