@@ -21,3 +21,6 @@ class Calisan(Insan):
     
     def get_maas(self):
         return self.__maas
+    
+    def set_maas(self, maas):
+        self.__maas = maas
