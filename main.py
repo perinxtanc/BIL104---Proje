@@ -27,4 +27,8 @@ issiz3 = Issiz('15151515151', 'Mehmet', 'Aydın', 31, 'Erkek', 'Türk', 60)
 data = {
     'Nesne': ['çalışan', 'çalışan', 'çalışan', 'mavi yaka', 'mavi yaka', 'mavi yaka',
               'beyaz yaka', 'beyaz yaka', 'beyaz yaka'],
+    'TC No': [calisan1.get_tc_no(), calisan2.get_tc_no(),
+              calisan3.get_tc_no(), maviyaka1.get_tc_no(), maviyaka2.get_tc_no(), maviyaka3.get_tc_no(),
+              beyazyaka1.get_tc_no(), beyazyaka2.get_tc_no(), beyazyaka3.get_tc_no()],
+    
 }
