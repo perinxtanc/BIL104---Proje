@@ -9,3 +9,6 @@ class Insan:
             
     def get_tc_no(self):
         return self.__tc_no
+        
+    def set_tc_no(self, tc_no):
+        self.__tc_no = tc_no
