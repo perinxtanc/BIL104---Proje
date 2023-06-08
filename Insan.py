@@ -24,3 +24,6 @@ class Insan:
         
     def set_soyad(self, soyad):
         self.__soyad = soyad
+    
+    def get_yas(self):
+        return self.__yas
