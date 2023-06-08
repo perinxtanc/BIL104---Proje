@@ -11,3 +11,7 @@ insan2 = Insan('22222222222', 'Ayşe', 'Demir', 25, 'Kadın', 'Türk')
 calisan1 = Calisan('33333333333', 'Mehmet', 'Aydın', 35, 'Erkek', 'Türk', 'teknoloji', 60, 20000)
 calisan2 = Calisan('44444444444', 'Fatma', 'Kaya', 28, 'Kadın', 'Türk', 'muhasebe', 36, 15000)
 calisan3 = Calisan('55555555555', 'Ali', 'Şahin', 32, 'Erkek', 'Türk', 'inşaat', 84, 25000)
+
+maviyaka1 = MaviYaka('66666666666', 'Ayhan', 'Yıldız', 29, 'Erkek', 'Türk', 'teknoloji', 48, 18000, 0.2)
+maviyaka2 = MaviYaka('77777777777', 'Deniz', 'Kara', 31, 'Kadın', 'Türk', 'muhasebe', 24, 16000, 0.5)
+maviyaka3 = MaviYaka('88888888888', 'Can', 'Demir', 27, 'Erkek', 'Türk', 'diğer', 36, 22000, 0.7)
