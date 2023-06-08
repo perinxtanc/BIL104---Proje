@@ -12,3 +12,6 @@ class Calisan(Insan):
     
     def set_sektor(self, sektor):
         self.__sektor = sektor
+            
+    def get_tecrube(self):
+        return self.__tecrube
