@@ -7,3 +7,6 @@ class BeyazYaka(Calisan):
     
     def get_tesvik_primi(self):
         return self.__tesvik_primi
+    
+    def set_yipranma_payi(self, tesvik_primi):
+        self.__tesvik_primi = tesvik_primi
