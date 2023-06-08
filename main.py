@@ -36,4 +36,7 @@ data = {
     'Soyad': [calisan1.get_soyad(), calisan2.get_soyad(), calisan3.get_soyad(),
               maviyaka1.get_soyad(), maviyaka2.get_soyad(), maviyaka3.get_soyad(), beyazyaka1.get_soyad(),
               beyazyaka2.get_soyad(), beyazyaka3.get_soyad()],
+    'Yaş': [calisan1.get_yas(), calisan2.get_yas(), calisan3.get_yas(),
+            maviyaka1.get_yas(), maviyaka2.get_yas(), maviyaka3.get_yas(), beyazyaka1.get_yas(), beyazyaka2.get_yas(),
+            beyazyaka3.get_yas()],
 }
