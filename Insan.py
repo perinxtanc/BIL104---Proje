@@ -12,3 +12,6 @@ class Insan:
         
     def set_tc_no(self, tc_no):
         self.__tc_no = tc_no
+            
+    def get_ad(self):
+        return self.__ad
