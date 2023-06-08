@@ -42,4 +42,7 @@ data = {
     'Cinsiyet': [calisan1.get_cinsiyet(), calisan2.get_cinsiyet(),
                  calisan3.get_cinsiyet(), maviyaka1.get_cinsiyet(), maviyaka2.get_cinsiyet(), maviyaka3.get_cinsiyet(),
                  beyazyaka1.get_cinsiyet(), beyazyaka2.get_cinsiyet(), beyazyaka3.get_cinsiyet()],
+    'Uyruk': [calisan1.get_uyruk(), calisan2.get_uyruk(), calisan3.get_uyruk(),
+              maviyaka1.get_uyruk(), maviyaka2.get_uyruk(), maviyaka3.get_uyruk(), beyazyaka1.get_uyruk(),
+              beyazyaka2.get_uyruk(), beyazyaka3.get_uyruk()],
 }
